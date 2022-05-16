@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: 'Water Brush', cursive;
+}
+
+ul.list {
+    list-style: none;
+    float: right;
+}
+
+.list li, ul.list {
+    display: inline;
+}
+
+.list li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 5px;
+    color: rgb(69, 47, 70);
+}
+
+#logo {
+    width: 60px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 2px dotted ;
+}
+
+#header {
+    background-color: rgb(251, 211, 91);
+}
+
+.para2 {
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+}
+
+
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    background-color: rgb(251, 211, 91);
+}
+
+table tr td a {
+    text-decoration: none;
+}
+
+p {
+    margin: 20px;
+    text-align: justify;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+}
+
+/* label {
+    width: 300px;
+} */
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(251, 211, 91);
+}
+
+input[type="radio"], input[type="checkbox"] {
+    padding: 5px;
+    border: 0.5px solid rgb(251, 211, 91);
+}
+
+form{
+    margin: auto;
+    width: 50%;
+}
+fieldset{
+    border:1px solid rgb(251, 211, 91);
+    border: radius 10px;
+    margin: 20px;
+}
+legend{
+    background-color: rgb(251, 211, 91);
+    border: 2px solid rgb(251, 211, 91);
+    border-radius: 15px;
+    padding: 10px;
+}
+.partone label{
+    width: 100px;
+    display: inline-block;
+}
+
+form p {
+    margin-left: 0;
+}
+input [type="submit"] {
+    display: block;
+    margin:auto;
+margin-bottom:20px;
+backround-color: rgb(251,211,91);
+border: none;
+border-radius: 15px;
+padding: 5px;
+}
+.fotot img {
+    width:30%;
+    margin: 0 1.5% 0 1.5%;
+}
+
+.fotot{
+    width: 80%;
+    margin: auto;
+}
+ol.artlist{
+    list-style:upper-roman ;
+}
+ol.artlist li em {
+    background-color: rgb(250,210,90);
+    font-family: "tapestry";
+    border-bottom: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+ol.artlist ul{
+    background-color: rgb(250,210,90,0.3);
+    width: 30%;
+    list-style: square;
+    border-radius: 15px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+}
+
+ol.artlist ul li {
+    padding: 5px;
+}
+
+
+.arts01 img {
+    height: 250px;
+    float: right;
+    margin: left: 30px;
+    margin:
+}
+.arts02 img{
+    height: 250px;
+    float: left;
+    margin: right 30px;
+}
+.arts01 ,
+ .arts02 {
+    width: 80%;
+    margin: 60px auto 60px auto;
+}
+.arts01 h2{
+    text-align: left;
+    font-size: 3em; /*3x 16px*/
+}
+.arts02 h2{
+    text-align: right;
+    font-size: 3em;
+    
+}
+.arts01 p,
+ .arts02 p {
+    line-height: 2em;
+    font-weight: 300;
+}
