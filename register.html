@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <img id="logo" src="images/logo.jpg" alt="Art Logo" />
+
+      <ul class="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </div>
+
+    <h1>Register for virtual tour</h1>
+
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend>Personal information</legend>
+
+        <label for="fullname">Fullname:</label>
+        <input type="text" id="fullname" name="fullname" />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <br />
+
+        <p>Age:</p>
+        <label><input type="radio" name="age" value="under18" />Under 18</label><br />
+        <label><input type="radio" name="age" value="18plus" />18 or Older</label><br />
+      </fieldset>
+      <fieldset>
+        <legend>Your favorite art</legend>
+        <p>Type of art you want to see:</p>
+        <input list="arts" name="arts" />
+        <datalist id="arts">
+          <option value="Modern"></option>
+          <option value="Contemporary"></option>
+          <option value="Classic"></option>
+          <option value="Minimal"></option>
+          <option value="Photohraphy"></option>
+        </datalist>
+
+        <br />
+        <p>Favorite artist:</p>
+        <input type="checkbox" id="artist1" value="htmlCssJs" name="artist1" />
+        <label for="artist1">Vincent van Gogh</label> <br />
+
+        <input type="checkbox" id="artist2" value="mysqlPhp" name="artist2" />
+        <label for="artist2">Pablo Picasso</label> <br />
+
+        <input type="checkbox" id="artist3" value="java" name="artist3" />
+        <label for="artist3">Leonardo da Vinci</label> <br />
+
+        <br />
+      </fieldset>
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
